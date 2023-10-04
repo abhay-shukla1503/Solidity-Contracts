@@ -1,0 +1,102 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getUserDetails",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "contact",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "residentialInfo",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "aadharNumber",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_contact",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_residentialInfo",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_aadharNumber",
+						"type": "string"
+					}
+				],
+				"name": "setUserDetails",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"aadhar.sol": "KYC"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"aadhar.sol": {
+			"keccak256": "0xe7e978490797c1911135f3420a4b1fd839d32fdd6127b367400f32161f1dbd0d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://40a453f2c235b77fcecb0dea46dd5ce9f67f69991c480c852c6caa85086f4989",
+				"dweb:/ipfs/QmaWYKMoYxw8WD42fG2KqeHsGji5JC9drsCYvGsqZWr5ce"
+			]
+		}
+	},
+	"version": 1
+}

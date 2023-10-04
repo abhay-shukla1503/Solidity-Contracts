@@ -1,0 +1,202 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_comptroller",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_token",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_cToken",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "borrowAmount",
+						"type": "uint256"
+					}
+				],
+				"name": "borrow",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "cToken",
+				"outputs": [
+					{
+						"internalType": "contract CTokenInterface",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "comptroller",
+				"outputs": [
+					{
+						"internalType": "contract ComptrollerInterface",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "enterMarket",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "cTokenAmount",
+						"type": "uint256"
+					}
+				],
+				"name": "redeem",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "underlyingAmount",
+						"type": "uint256"
+					}
+				],
+				"name": "repayBorrow",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "underlyingAmount",
+						"type": "uint256"
+					}
+				],
+				"name": "supply",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "token",
+				"outputs": [
+					{
+						"internalType": "contract IERC20",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "receiver",
+						"type": "address"
+					}
+				],
+				"name": "transferEther",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"undefined/compound_3/MyDeFiProject.sol": "MyDeFiProject"
+		},
+		"evmVersion": "petersburg",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+			"keccak256": "0x287b55befed2961a7eabd7d7b1b2839cbca8a5b80ef8dcbb25ed3d4c2002c305",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bd39944e8fc06be6dbe2dd1d8449b5336e23c6a7ba3e8e9ae5ae0f37f35283f5",
+				"dweb:/ipfs/QmPV3FGYjVwvKSgAXKUN3r9T9GwniZz83CxBpM7vyj2G53"
+			]
+		},
+		"undefined/compound_3/CTokenInterface.sol": {
+			"keccak256": "0x3d52289aaf220afaf77c766cb22e2ad30e43b7b21f09cdf5e76ef51f010f323f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4990836c9b7726619c411832034e69d96c630aedefe03dff40a44c0b1537d6ef",
+				"dweb:/ipfs/QmXC5URbxm8DF7wgx925QJL1BAq9AbBHUjUZeuqdxcciQT"
+			]
+		},
+		"undefined/compound_3/ComptrollerInterface.sol": {
+			"keccak256": "0x0a891e418f1cd8cb2c24fe800168cb4eb83476934c9b6a5ac9adfcf103965625",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9bdc527afef5bbfb1a076adfb97688f6836af1378c5c4ff56791b526f35fadaf",
+				"dweb:/ipfs/QmUhCge9xqZyiHS8rzT3PhvVkCGiHqU1b6UYqnEzr2p8e7"
+			]
+		},
+		"undefined/compound_3/MyDeFiProject.sol": {
+			"keccak256": "0xc6ddd317a0460af5c79ea8cfff9f2ceba0d5d1b3775ed435685c9025d97cebf0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3b10410dd50c85b61ba0366bc84184640ef2351a326bfd80778a190beec0d89a",
+				"dweb:/ipfs/QmTkza4GYpfkzE7vj32oxv6yfwEvPw1NkvUgZQ77YCCWp4"
+			]
+		}
+	},
+	"version": 1
+}

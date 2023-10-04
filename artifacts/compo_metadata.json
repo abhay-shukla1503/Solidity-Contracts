@@ -1,0 +1,99 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "NFTContractAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "IUSDTADDRESS",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "CAdd",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amt",
+						"type": "uint256"
+					}
+				],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "add",
+						"type": "address"
+					}
+				],
+				"name": "getCBal",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"compo.sol": "compo"
+		},
+		"evmVersion": "petersburg",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"compo.sol": {
+			"keccak256": "0xb9304e5d0fd17ae6f480a117e54d89230483e161aabd8b086b68ac2a2c81bac0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4e5c9d5b3bf7dcff612b8be17fab65803408f83e5d1c962a61b348abfaa2122d",
+				"dweb:/ipfs/QmXphu7Y6SeDcLQVdWhHMBfVs7Mqudh3BWjSwfzaH1RFnX"
+			]
+		}
+	},
+	"version": 1
+}

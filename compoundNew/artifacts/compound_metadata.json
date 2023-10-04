@@ -1,0 +1,168 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "NFTContractAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "IUSDTADDRESS",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "CAdd",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					}
+				],
+				"name": "Claim",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amt",
+						"type": "uint256"
+					}
+				],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "add",
+						"type": "address"
+					}
+				],
+				"name": "getCBal",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getCRate",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "add",
+						"type": "address"
+					}
+				],
+				"name": "usdtBal",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"compoundNew/compound.sol": "compound"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"compoundNew/1.sol": {
+			"keccak256": "0x82ad6c488dd51c0755adf89a3c13fb9147d702e48d0329de9d41071c67f9d276",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c5801eb16f1d73ba53de39db9e380ceafc766b76dd0428ca014509207c870bee",
+				"dweb:/ipfs/QmebkrZZmBZVC2piD7s2SGkCwJLnkEDgUifZgCPcxXBP2k"
+			]
+		},
+		"compoundNew/2.sol": {
+			"keccak256": "0x3f95843fabdb41e89749ca0763feaa2fe9cb4cd14bdf16712b49179a5c14139f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://25bd2e7077c1ee32eb3b486bba7a3ce477d68bde8513bd2efd7331ae4a072da7",
+				"dweb:/ipfs/QmUQuLLTEnpzukF1PHv8GCDwDusD8to12WZJHYG3v3RNLu"
+			]
+		},
+		"compoundNew/3.sol": {
+			"keccak256": "0x52711111e029f6039b93931d27edd8964b6c10b58d6980256c50cdf04e5ec9f3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://82f9e6650b2e67d42a8d2873af4131fc92092986f5978079b287691d6dfb043c",
+				"dweb:/ipfs/QmT3QFaYypVie5TiM9eWkM9A2sXokpPjgPiGJcEUcPP6Yp"
+			]
+		},
+		"compoundNew/compound.sol": {
+			"keccak256": "0x1d0e19dc18ea04d7c1df96fb89371d72f2deaee75f8c0a962941068824374000",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://431ea860e66d91f1d64fba325aaba78d8c146002a68e97ae68bcba2b28c5396a",
+				"dweb:/ipfs/QmQbFqttHNWUfPFH1e7UicmeGtAsUD9rWonVwz2yts6cHG"
+			]
+		}
+	},
+	"version": 1
+}

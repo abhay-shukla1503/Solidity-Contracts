@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"practice1.sol": "topay"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"practice1.sol": {
+			"keccak256": "0x11affd80c56bf4ceaeaca49cc3b617bba343742752d87f6f52a48dd2a7bd82ed",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://992912162860d653d72ba257379d67e21d9501d526e9fc35876c7c907caab885",
+				"dweb:/ipfs/QmVHkKBWRZzvRnNupxmKKByUAK9pdH5NwBAYmrn6fYwcQw"
+			]
+		}
+	},
+	"version": 1
+}

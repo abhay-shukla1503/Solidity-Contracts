@@ -1,0 +1,236 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getAllStudentDetails",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "rollNo",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "marks",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "deenPermission",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "registrarPermission",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "VCPermission",
+								"type": "string"
+							},
+							{
+								"internalType": "bytes32",
+								"name": "hashcode",
+								"type": "bytes32"
+							}
+						],
+						"internalType": "struct Degree.StudentDetails[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "_hash",
+						"type": "bytes32"
+					}
+				],
+				"name": "getStudentDetailsByHash",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "rollNo",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "marks",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "deenPermission",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "registrarPermission",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "VCPermission",
+								"type": "string"
+							},
+							{
+								"internalType": "bytes32",
+								"name": "hashcode",
+								"type": "bytes32"
+							}
+						],
+						"internalType": "struct Degree.StudentDetails",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "getStudentDetailsByIndex",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "rollNo",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "marks",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "deenPermission",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "registrarPermission",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "VCPermission",
+								"type": "string"
+							},
+							{
+								"internalType": "bytes32",
+								"name": "hashcode",
+								"type": "bytes32"
+							}
+						],
+						"internalType": "struct Degree.StudentDetails",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_rollNo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_marks",
+						"type": "uint256"
+					}
+				],
+				"name": "registrarAdvice",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"degree.sol": "Degree"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"degree.sol": {
+			"keccak256": "0x45280b574b31a9dbe2b980877306c0f647db9767307c259210ab6ca6dea76501",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://92077aec00c0181c69b1dc391460e607bd2b78aa65cd827d3922067625c57992",
+				"dweb:/ipfs/QmNMsM76N7qvopedNaiCFmRpd9QWuLdjok6QN3BtWSBwJX"
+			]
+		}
+	},
+	"version": 1
+}
